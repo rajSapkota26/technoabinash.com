@@ -28,60 +28,60 @@ let track = document.createElement('audio');
 let All_song = [
     {
         name: "first song",
-        path: "../audios/audio1.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio1.mp3",
+        img: "images//instagram.svg",
         singer: "1"
     },
     {
         name: "second song",
-        path: "../audios/audio2.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio2.mp3",
+        img: "images//instagram.svg",
         singer: "2"
     },
     {
         name: "third song",
-        path: "../audios/audio3.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio3.mp3",
+        img: "images//instagram.svg",
         singer: "3"
     },
     {
         name: "fourth song",
-        path: "../audios/audio4.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio4.mp3",
+        img: "images//instagram.svg",
         singer: "4"
     },
     {
         name: "fifth song",
-        path: "../audios/audio5.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio5.mp3",
+        img: "images//instagram.svg",
         singer: "5"
     }
     ,
     {
         name: "sixth song",
-        path: "../audios/audio6.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio6.mp3",
+        img: "images//instagram.svg",
         singer: "6"
     }
     ,
     {
         name: "seventh song",
-        path: "../audios/audio7.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio7.mp3",
+        img: "images//instagram.svg",
         singer: "7"
     }
     ,
     {
         name: "eighth song",
-        path: "../audios/audio8.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio8.mp3",
+        img: "images//instagram.svg",
         singer: "8"
     }
     ,
     {
         name: "noneth song",
-        path: "../audios/audio9.mp3",
-        img: "./images//instagram.svg",
+        path: "audios/audio9.mp3",
+        img: "images//instagram.svg",
         singer: "9"
     }
 ];
