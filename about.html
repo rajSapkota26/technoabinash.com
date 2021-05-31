@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | Songran </title>
+    <link rel="stylesheet" href="/css/about.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="canves.css" />
+</head>
+
+<body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Portfolio.</a></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#sliderCanves">Acheivement</a></li>
+                <li><a href="about.html">Pages</a></li>
+                <li><a href="home.html">Blogs</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+
+            </ul>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+            </div>
+        </div>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="right">
+            <img src="/Images/banner1.png" alt="">
+        </div>
+        <div class="left">
+            <div class="home-content">
+                <div class="text">
+                    <div class="text-one">Hello,</div>
+                    <div class="text-two">I'm Song ran</div>
+                    <div class="text-three">UI/UX Designer</div>
+                    <div class="text-four">From Nepal</div>
+                </div>
+                <div class="button">
+                    <button>Hire Me</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- About Section Start -->
+
+    <!-- My music Section Start -->
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>Enjoy with Music</span></div>
+            <div class="skills-details">
+                <a href="music.html"> <img src="/images/music.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section class="player">
+        <div class="title"><span>My Playlist</span></div>
+        <div class="videoplayer">
+            <div class="playlist">
+                <div class="videolist">
+                    <video class="active" src="/videos/video1.mp4" muted></video>
+                    <video src="/videos/video2.mp4" muted></video>
+                    <video src="/videos/video3.mp4" muted></video>
+                    <video src="/videos/video4.mp4" muted></video>
+                    <video src="/videos/video1.mp4" muted></video>
+                </div>
+                <div class="mainvideo">
+                    <video src="/videos/video1.mp4" muted controls></video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My feedBack Section Start -->
+    <section class="feedBack">
+        <div class="container">
+            <div class="title"><span>Send FeedBack</span></div>
+
+            <form action="#">
+                <div class="inputWrap">
+                    <input type="text" id="title" placeholder="Your name">
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+                <div class="inputWrap2">
+                    <input type="text" id="subject" placeholder="Your subject">
+                    <textarea id="desc" name="" id="" cols="25" rows="10" placeholder="your message"></textarea>
+                </div>
+                <div class="btnWrapper">
+                    <button onclick="add_todo()" class="btn btn-primary">Send FeedBack</button>
+                    <button onclick=" show_todo()" class="btn btn-primary">See FeedBack</button>
+                    <button onclick=" hide_todo()" class="btn btn-primary">Hide FeedBack</button>
+                </div>
+            </form>
+        </div>
+
+
+
+        </div>
+    </section>
+    <!-- My Services for feedback showSection Start -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>Users FeedBack</span></div>
+            <div class="boxes" id="boxes">
+
+            </div>
+
+        </div>
+    </section>
+    <section class="slider">
+        <div class="sliderCanves" id="sliderCanves">
+            <h1 class="heading">Our acheivment</h1>
+            <div id="slideshow">
+
+                <ul class="slides">
+                    <li><img class="sCImg" src="/Images/1.jpg" alt="Marsa Alam underawter close up" /></li>
+                    <li><img class="sCImg" src="/Images/2.jpg" alt="Turrimetta Beach - Dawn" /></li>
+                    <li><img class="sCImg" src="/Images/3.jpg" alt="Power Station" /></li>
+                    <li><img class="sCImg" src="/Images/4.jpg" alt="Colors of Nature" /></li>
+                    <li><img class="sCImg" src="/Images/1.jpg" alt="Colors of Nature" /></li>
+                    <li><img class="sCImg" src="/Images/2.jpg" alt="Colors of Nature" /></li>
+                    <li><img class="sCImg" src="/Images/3.jpg" alt="Colors of Nature" /></li>
+                    <li><img class="sCImg" src="/Images/4.jpg" alt="Colors of Nature" /></li>
+                    <li><img class="sCImg" src="/Images/1.jpg" alt="Colors of Nature" /></li>
+                    <li><img class="sCImg" src="/Images/2.jpg" alt="Colors of Nature" /></li>
+
+                </ul>
+
+                <span class="arrow previous"></span>
+                <span class="arrow next"></span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Songran</a> | &#169; 2021 All Rights Reserved</span>
+        </div>
+    </footer>
+    <!-- use ajax for canvas slider  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script src="/js/about.js"></script>
+
+    <!-- script for video player -->
+    <script>
+        $(document).ready(function () {
+
+            $('.videolist video').click(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+                let src = $(this).attr('src')
+                $('.mainvideo video').attr('src', src);
+            });
+        });
+    </script>
+</body>
+
+</html>

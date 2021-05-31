@@ -1,0 +1,23 @@
+:root{
+    --primary:crimson;
+    --secondary:grey;
+    --secondarylight:lightgrey;
+    --light:#fff;
+    --dark:#111;
+    --primary1: #3dcfd3;  
+    --pure: #f2f2f2;
+    --ternary: #898989;   
+    --secondary1: #070606;
+
+    --primaryhome:#3dcfd3;
+    --darkhome:#161616;
+    --ternaryhome:#898989;
+    --lighthome:#f2f2f2;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
